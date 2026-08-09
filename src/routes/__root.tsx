@@ -79,14 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ABTalks — 60-Day Coding Challenge" },
-      { name: "description", content: "Ship a project a day for 60 days and prove every build." },
+      { title: "ABTalks — 60-Day Coding Challenge for Builders" },
+      { name: "description", content: "Ship one project a day for 60 days. ABTalks gives you daily briefs, proof-of-work submissions, streaks and achievements." },
       { name: "author", content: "ABTalks" },
-      { property: "og:title", content: "ABTalks — 60-Day Coding Challenge" },
-      { property: "og:description", content: "Ship a project a day for 60 days and prove every build." },
+      { property: "og:title", content: "ABTalks — 60-Day Coding Challenge for Builders" },
+      { property: "og:description", content: "Ship one project a day for 60 days. ABTalks gives you daily briefs, proof-of-work submissions, streaks and achievements." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ABTalks — 60-Day Coding Challenge for Builders" },
+      { name: "twitter:description", content: "Ship one project a day for 60 days. ABTalks gives you daily briefs, proof-of-work submissions, streaks and achievements." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3ae7204ef36ccdcd716fb42d6c70eb17/id-preview-1641f34e--35f51cce-2cb7-40b5-bc51-1987a468e11f.lovable.app-1786272682103.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3ae7204ef36ccdcd716fb42d6c70eb17/id-preview-1641f34e--35f51cce-2cb7-40b5-bc51-1987a468e11f.lovable.app-1786272682103.png" },
     ],
     links: [
       {

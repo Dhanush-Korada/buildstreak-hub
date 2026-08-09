@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "ABTalks — 60-Day Coding Challenge for Builders" },
       {
         property: "og:description",
-        content: "Daily briefs, proof-of-work submissions, streaks and achievements for 60 days straight.",
+        content: "Ship one project a day for 60 days. ABTalks gives you daily briefs, proof-of-work submissions, streaks and achievements.",
       },
     ],
   }),
